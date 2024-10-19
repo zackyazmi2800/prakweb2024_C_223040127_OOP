@@ -8,7 +8,7 @@ class Produk {
     public $judul = "Judul",
            $penulis ="Penulis",
            $penerbit = "Penerbit",
-           $harga ="harga";
+           $harga = 0;
 
 
     public function getlabel(){
@@ -22,6 +22,7 @@ $Produk3 -> judul = "Naruto";
 $Produk3 -> penulis = "Masahi Khisimoto";
 $Produk3 -> penerbit = "Shonen Jump";
 $Produk3 -> harga = 30000;
+
 
 $Produk4 = new Produk();
 $Produk4 -> judul = "Boruto";
